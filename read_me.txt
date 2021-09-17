@@ -4,19 +4,12 @@ San Roque, Gabriel
 Roxas, Michael F.
 
 *About the templates*
-Only "Business Card 1-5" has a proper link. 
-and it will only lead you to sample.html which is mainly for
-"Business Card 1"
-other templates will lead you nowhere
-That will serve as the overall design for each template 
-that will be chosen.
+All templates are taken from the database, add a template in the database, it also will be in the
+templates.hbs
 
-*Chatbot*
-will not reply, will only refresh the page...
-That is only the design of the chatbox itself.
+*cart is added in database as you add, it will also be shown in cart.hbs* 
+you can also remove them in cart.hbs
 
-*Tested on Microsoft Edge and Google Chrome*
+*checkout has a form validation, if incomplete, it will not submit*
 
-*Homepage is index.html*
-
-*Reference Code Textbox does not work*
+*reviews will be added and viewed in review.hbs*
