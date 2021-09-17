@@ -7,7 +7,6 @@
     "debug": "nodemon -r dotenv/config index.js",
     "dev": "node -r dotenv/config index.js",
     "start": "node index.js"
-    
   },
   "keywords": [],
   "author": "",
