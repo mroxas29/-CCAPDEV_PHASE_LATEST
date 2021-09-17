@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "debug": "nodemon -r dotenv/config index.js",
-    "dev": "nodemon -r dotenv/config index.js",
-    "start": "node index.js"
+    "debug": "nodemon -r dotenv/config ./index.js",
+    "dev": "nodemon -r dotenv/config ./index.js",
+    "start": "node ./index.js"
   },
   "keywords": [],
   "author": "",
