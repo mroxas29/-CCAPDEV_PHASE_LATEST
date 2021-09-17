@@ -4,7 +4,7 @@ var session = require('express-session');
 const MongoStore =  require('connect-mongo')(session);
 const moment = require('moment');
 var app = new express();
-const dotenv = require('dotenv').config()
+const dotenv = require('dotenv').config();
 
 //const mongoURI = "mongodb+srv://SuperHot2101:admin@printpaddb.h1lxu.mongodb.net/PrintPadDB?retryWrites=true&w=majority";
 const { dbURL } = require('./config');
